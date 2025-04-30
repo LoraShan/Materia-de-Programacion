@@ -1,0 +1,7 @@
+CREATE DATABASE prueba
+
+CREATE TABLE IF NOT EXISTS prueba.articulos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  descripcion VARCHAR(255) NOT NULL,
+  precio DECIMAL(10,2) NOT NULL
+);
